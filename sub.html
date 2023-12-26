@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student submission form</title>
+</head>
+<body>
+    <h4>First Name:</h4> 
+    <form action="/action.php">
+         <input type="text" placeholder="name">
+         <h4>Last name:</h4>
+         <input type="text"placeholder="last name">
+    </form>
+    <br>
+    <h4>course:</h4>
+     <select name="course">
+        <option value="b.tech">btech</option>
+        <option value="b.com">bcom</option>
+        <option value="MBA">MBA</option>
+        <option value="Mtech">Mtech</option>
+     </select>
+     <br>
+     <h4>gender:</h4>
+     <label for="male">
+        <input type="radio" value="male" name="gender" id="101">male
+    </label>
+        <label for="female">
+        <input type="radio" value="female" name="gender" id="102">female
+    </label> 
+    <label for="others">
+       <input type="radio" value="others" name="gender" id="103">others
+     </label>
+     <br>
+     <h4>Hobbies:</h4>
+     <label for=" programming">
+        <input type="checkbox"value="programming" name="hobbies" id="104">programming
+        <br>
+        <input type="checkbox"value="cricket" name="hobbies" id="105"> cricket
+        <br>
+        <input type="checkbox"value="football" name="hobbies" id="106"> football
+        <br>
+        <input type="checkbox"value="movies" name="hobbies" id="107"> movies
+        <br>
+        <input type="checkbox"value="developing" name="hobbies" id="108"> developing
+        <br>
+    </label>
+    <h4>PHONE NUMBER:</h4>
+     <form action="/action.php">
+        <input type="integer" placeholder="">
+     </form>
+     <br>
+     <h4>ADDRESS:</h4>
+     <textarea name="Adress" id="`101" placeholder="provide address here" rows="5"></textarea>
+     <form action="/action.php">
+        <h4>email address:</h4>
+        <input type="text" placeholder=" email">
+        <h4>password:</h4>
+        <input type="password"placeholder="password">
+   </form>
+   <br>
+   <input type="submit" value="submit">
+     
+
+</body>
+</html>
